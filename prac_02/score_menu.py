@@ -15,7 +15,7 @@ def main():
         elif choice == "S":
             show_stars(score)
         else:
-            print("Invalid option. Please try again.")
+            print("Invalid option.Please try again.")
 
         choice = display_menu()
 
