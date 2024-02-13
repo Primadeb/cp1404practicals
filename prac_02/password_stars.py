@@ -3,7 +3,7 @@ CP1404 - prac_02
 Get a password with minimum length and display asterisks
 """
 def get_password():
-    password = input("Enter password: ")
+    password = input("Enter your password: ")
     return password
 
 def print_password_asterisks(password):
