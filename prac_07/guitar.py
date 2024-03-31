@@ -1,5 +1,5 @@
 class Guitar:
-    """Represent a Guitar object."""
+    """Represent a Guitar object"""
 
     def __init__(self, name="", year=0, cost=0):
         """Initialize a Guitar instance.
