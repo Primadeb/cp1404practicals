@@ -1,0 +1,18 @@
+"""Estimate time:1 hour
+Actual time: 2Hour"""
+from kivy.app import App
+from kivy.lang import Builder
+from kivy.uix.label import Label
+
+
+class DynamicLabelsApp(App):
+    """Main application class for dynamically creating labels."""
+
+
+    def __init__(self, **kwargs):
+        """Construct the app."""
+        super().__init__(**kwargs)
+        # List of names
+        self.names = ["Alice", "Bob", "Charlie", "David", "Emily"]
+
+
