@@ -60,5 +60,4 @@ def display_menu():
     print(menu)
     return input("Enter your choice: ").upper()
 
-
 main()
