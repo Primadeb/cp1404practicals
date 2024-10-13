@@ -22,3 +22,12 @@ def get_data():
         subject_data.append(parts)  # Append the parts to the subject_data list
     input_file.close()
     return subject_data  # Return the list of lists
+
+
+def display_subject_details(data):
+    """Display subject details."""
+    for subject in data:
+        print(f"{subject[0]} is taught by {subject[1]} and has {subject[2]} students")
+
+
+main()
