@@ -6,7 +6,7 @@ File needs reformatting
 CODE_TO_NAME = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
                 "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
 
-# Printing states and names
+# Printing al  states and names
 for code, name in CODE_TO_NAME.items():
     print(f"{code} is {name}")
 
