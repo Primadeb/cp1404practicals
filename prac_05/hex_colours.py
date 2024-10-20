@@ -6,15 +6,15 @@ Actual:   45 minutes
 
 # Dictionary containing color names and their hexadecimal codes
 COLOR_CODES = {
-    "Aliceblue": "#F0F8FF",
-    "Antiquewhite": "#FAEBD7",
+    "AliceBlue": "#F0F8FF",
+    "AntiqueWhite": "#FAEBD7",
     "Aqua": "#00FFFF",
     "Aquamarine": "#7FFFD4",
     "Azure": "#F0FFFF",
     "Beige": "#F5F5DC",
     "Bisque": "#FFE4C4",
     "Black": "#000000",
-    "Blanchedalmond": "#FFEBCD",
+    "BlanchedAlmond": "#FFEBCD",
     "Blue": "#0000FF"
 }
 
