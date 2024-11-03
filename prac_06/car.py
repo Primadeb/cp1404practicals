@@ -30,7 +30,7 @@ class Car:
             self.fuel -= distance
         self._odometer += distance
         return distance
-    # add the __str__ method to the Car class in car.py
+    # add  __str__ method to the Car class in car.py
     def __str__(self):
         # return a string
         return f"{self.name}, fuel={self.fuel}, odometer={self._odometer}"
