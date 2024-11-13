@@ -15,7 +15,6 @@ class Guitar:
         return self.year < other.year
 
 
-
     def get_age(self):
         """Return the age of the guitar in years."""
         current_year = 2022  # Assuming the current year is 2022
