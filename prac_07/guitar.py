@@ -1,13 +1,8 @@
 class Guitar:
-    """Represent a Guitar object"""
+    """Represent a guitar with name, year, and cost."""
 
     def __init__(self, name="", year=0, cost=0):
-        """Initialize a Guitar instance.
-
-        name: str, the name of the guitar (default "")
-        year: int, the year the guitar was made (default 0)
-        cost: float, the cost of the guitar (default 0)
-        """
+        """Initialise a Guitar instance."""
         self.name = name
         self.year = year
         self.cost = cost
@@ -16,16 +11,14 @@ class Guitar:
         """Return a string representation of the guitar."""
         return f"{self.name} ({self.year}) : ${self.cost:,.2f}"
 
-
-    def __lt__(self, other):
-        """Compare Guitars by year."""
-        return self.year < other.year
-
-    def get_age(self):
+    def get_age(self, current_year):
         """Return the age of the guitar in years."""
-        current_year = 2022  # Assuming the current year is 2022
         return current_year - self.year
 
     def is_vintage(self):
-        """Return True if the guitar is 50 or more years old, False otherwise."""
-        return self.get_age() >= 50
+        """Return True if the guitar is 50 years or older, False otherwise."""
+        return self.get_age(2024) >= 50  # Assuming the current year is 2024
+
+    def __lt__(self, other):
+        """Less-than comparison based on year for sorting."""
+        return self.year < other.year
